@@ -19448,9 +19448,9 @@ cr.behaviors.Flash = function(runtime)
 cr.getObjectRefTable = function () { return [
 	cr.plugins_.Browser,
 	cr.plugins_.Function,
+	cr.plugins_.Touch,
 	cr.plugins_.Sprite,
 	cr.plugins_.Text,
-	cr.plugins_.Touch,
 	cr.behaviors.Flash,
 	cr.system_object.prototype.cnds.OnLayoutStart,
 	cr.system_object.prototype.acts.Wait,
